@@ -6,12 +6,12 @@ html, body
 
 body
 {
-background-image: linear-gradient(to right top, #6633f1, #a625d9, #c11889, #aa0a3f, #940000);
+background-image: linear-gradient(to right top, #3633f1, #4625d9, #bb18c1, #aa0a25, #009431);
 }
 
 .header
 {
-	color: rgb(0, 255, 242);font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
 .header img
 {
@@ -20,7 +20,7 @@ background-image: linear-gradient(to right top, #6633f1, #a625d9, #c11889, #aa0a
 
 .login_div
 {
-	background: rgb(112, 255, 200);float: none;border-radius: 15px;
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
 }
 
 .logo
@@ -48,7 +48,7 @@ background-image: linear-gradient(to right top, #6633f1, #a625d9, #c11889, #aa0a
 
 #output
 {
-	padding: 10px; width:80%;background: rgb(188, 119, 253);border-radius: 15px;
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
 }
 
 .input_div_room_page
@@ -58,17 +58,17 @@ background-image: linear-gradient(to right top, #6633f1, #a625d9, #c11889, #aa0a
 
 .input_div label
 {
-	color: rgb(255, 0, 255);font-size: 20px;
+	color: white;font-size: 20px;
 }
 
 
 .input_div_message_page
 {
-	position: fixed;bottom: 0px;width: 100%;background: rgba(140, 0, 255, 0.8);
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
 }
 .input_div_message_page label
 {
-	color: rgb(165, 155, 255);
+	color: black;
 }
 .input_div_message_page #msg
 {
@@ -81,7 +81,7 @@ background-image: linear-gradient(to right top, #6633f1, #a625d9, #c11889, #aa0a
 }
 .color_white
 {
-	color: rgb(0, 255, 106)
+	color: white
 }
 
 .user_tick
@@ -90,5 +90,5 @@ background-image: linear-gradient(to right top, #6633f1, #a625d9, #c11889, #aa0a
 }
 .message_h4
 {
-	padding-left:5px;color:rgb(255, 64, 64);
+	padding-left:5px;color:grey;
 }
